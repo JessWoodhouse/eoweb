@@ -21,7 +21,8 @@ Web-based Endless Online client built with TypeScript.
    - First, clone [extract-egf-images](https://github.com/sorokya/extract-egf-images) in a separate folder and follow its README
    - Then create the directories in your eoweb project:
    ```bash
-   mkdir public/gfx public/maps
+   mkdir public/gfx
+   mkdir public/maps
    ```
    - Place extracted images from the tool into `public/gfx/`
    - Place `.emf` map files in `public/maps/`
@@ -42,4 +43,4 @@ Web-based Endless Online client built with TypeScript.
 
 ## Note
 
-Graphics and map files are required but gitignored. 
+Graphics and map files are required but gitignored. Extract them yourself using the EGF tool before running.
